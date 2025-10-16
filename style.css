@@ -1,0 +1,87 @@
+/* ベース設定 */
+body {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #222;
+}
+
+/* ヘッダー */
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+  letter-spacing: 0.05em;
+}
+header p {
+  margin: 0.5em 0 0;
+}
+
+/* メインコンテンツ */
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1.5em;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h2 {
+  font-size: 1.3em;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  margin-top: 2em;
+  border-left: 4px solid #003366;
+  padding-left: 0.5em;
+}
+
+p {
+  margin: 0.8em 0;
+}
+
+.date {
+  margin-top: 2em;
+  line-height: 1.6;
+}
+
+hr {
+  margin: 2em 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* 過去公告リスト */
+.archive ul {
+  list-style: none;
+  padding: 0;
+}
+.archive li {
+  margin: 0.5em 0;
+}
+.archive a {
+  text-decoration: none;
+  color: #003366;
+}
+.archive a:hover {
+  text-decoration: underline;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin: 3em 0 2em;
+}
